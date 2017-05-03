@@ -1,0 +1,8 @@
+demo1       spring依赖注入
+demo2       实例化bean的三种方式
+demo3       bean的作用域
+demo4       bean的声明周期——init和destroy
+demo5       bean的生命周期——BeanPostProcessor
+demo6       集合注入
+demo7       AOP实现
+demo8       AspectJ

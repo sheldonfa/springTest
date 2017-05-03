@@ -1,0 +1,5 @@
+demo3       bean的作用域
+
+技术点：
+1、主要有两种作用域：默认singleton和prototype
+

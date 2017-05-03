@@ -1,0 +1,4 @@
+demo7       AOP实现
+
+技术点：
+1、在bean中配置property的方式实现注入
