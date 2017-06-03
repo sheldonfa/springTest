@@ -2,18 +2,34 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-		                    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+                        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-    <!--生命周期 后处理器-->
-    <bean id="xiaoMing" class="com.XiaoMing">
+
+    <!--setter注入-->
+    <bean id="bookDao" class="com.BookDao" />
+    <bean id="bookService" class="com.BookService">
+            <!--name是属性的名称，ref是引用bean的id名称-->
+            <property name="bookDao" ref="bookDao"/>
+    </bean>
+
+    <!--集合注入-->
+    <bean id="person" class="com.Person">
         <property name="age" value="15"/>
-        <!--ArryaList-->
+        <!--List-->
         <property name="hobbies">
             <list>
                 <value>抽烟</value>
                 <value>喝酒</value>
                 <value>烫头</value>
             </list>
+        </property>
+        <!--Set-->
+        <property name="course">
+            <set >
+                <value>数学</value>
+                <value>语文</value>
+                <value>英语</value>
+            </set>
         </property>
         <!--HashMap-->
         <property name="friends">
@@ -22,7 +38,7 @@
                 <entry key="2班" value="李四"/>
             </map>
         </property>
-        <!--Hashtable-->
+        <!--Properties-->
         <property name="girls">
             <props>
                 <prop key="怡红院">如玉</prop>
@@ -31,5 +47,4 @@
             </props>
         </property>
     </bean>
-
 </beans>
