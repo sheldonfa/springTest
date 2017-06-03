@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		                    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+        <!--默认构造器-->
+        <bean id="jack" class="com.Juggler"/>
+
+        <!--构造器，传参-->
+        <bean id="fisher" class="com.Juggler2">
+                <constructor-arg value="5"/>
+        </bean>
+
+        <!--构造器，传递引用类型参数-->
+        <bean id="weapon" class="com.Weapon" />
+        <bean id="fighter" class="com.Fighter">
+                <constructor-arg ref="weapon"/>
+        </bean>
+
+        <!--静态工厂-->
+        <bean id="earth" class="com.Earth" factory-method="createCar"/>
+
+        <!--实例工厂-->
+        <bean id="carFactory" class="com.CarFactory"/>
+        <bean id="car" factory-bean="carFactory" factory-method="getInstance"/>
+</beans>

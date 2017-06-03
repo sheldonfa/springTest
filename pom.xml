@@ -9,10 +9,13 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>demo1</module>
-        <module>demo2</module>
-        <module>demo3</module>
-        <module>demo4</module>
+        <module>demo1a</module>
+        <module>demo1b</module>
+        <module>demo2a</module>
+        <module>demo2b</module>
+        <module>demo2c</module>
+        <module>demo2d</module>
+        <module>demo2e</module>
         <module>demo5</module>
         <module>demo6</module>
         <module>demo7</module>

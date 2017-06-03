@@ -1,0 +1,9 @@
+demo1       实例化
+
+
+技术点：
+1、默认构造器方式      <bean id="..." class=="...">
+2、带参构造器
+3、静态工厂      <bean id="carId" class="com.CarStaticFactory" factory-method="createCar"/>
+4、实例工厂      <bean id="carFactory" class="com.CarFactory"/>
+                <bean id="carId2" factory-bean="carFactory" factory-method="getCarInstance"/>

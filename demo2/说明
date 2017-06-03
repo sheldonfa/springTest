@@ -1,8 +1,0 @@
-demo2       实例化bean的三种方式
-
-技术点：
-1、默认方式      <bean id="..." class=="...">
-2、静态工厂      <bean id="carId" class="com.CarStaticFactory" factory-method="createCar"/>
-
-3、实例工厂      <bean id="carFactory" class="com.CarFactory"/>
-                <bean id="carId2" factory-bean="carFactory" factory-method="getCarInstance"/>

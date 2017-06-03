@@ -1,0 +1,6 @@
+demo4a       基于注解的init和destroy方法
+
+技术点
+1、@PostConstruct@PreDestroy
+
+
