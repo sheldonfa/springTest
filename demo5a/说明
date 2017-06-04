@@ -1,0 +1,7 @@
+demo5a              spring的JDBC模板
+
+技术点：
+
+1、配置数据源
+2、配置jdbc模板，这里使用SimpleJdbcTemplate
+3、数据源连接数据库配置提取到配置文件
