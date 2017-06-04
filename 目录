@@ -1,7 +1,8 @@
-demo1       spring依赖注入
-demo1a      装配bean_声明bean
-demo2       实例化bean的三种方式
-demo3       bean的作用域
+demo1a      装配bean_bean的实例化
+demo1b      装配bean_注入
+demo2a      bean的作用域
+
+
 demo3a      bean的作用域基于注解的方式
 demo4       bean的生命周期——init和destroy
 demo4a      bean的生命周期——init和destroy基于init和destroy注解方式

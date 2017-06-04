@@ -11,11 +11,12 @@
     <modules>
         <module>demo1a</module>
         <module>demo1b</module>
-        <module>demo2a</module>
-        <module>demo2b</module>
+        <module>demo2aa</module>
+        <module>demo2ab</module>
         <module>demo2c</module>
         <module>demo2d</module>
         <module>demo2e</module>
+        <module>demo2f</module>
         <module>demo3a</module>
         <module>demo3b</module>
         <module>demo3c</module>
@@ -23,8 +24,7 @@
         <module>demo3e</module>
         <module>demo4a</module>
         <module>demo4b</module>
-        <module>demo5</module>
-        <module>demo9</module>
+        <module>demo4c</module>
         <module>demo10</module>
     </modules>
 
