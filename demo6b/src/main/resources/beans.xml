@@ -36,16 +36,6 @@
                 <property name="dataSource" ref="dataSource"/>
         </bean>
 
-        <!-- 配置通知 -->
-        <tx:advice id="txAdvice" transaction-manager="transactionManager">
-            <tx:attributes>
-                <!-- 传播特性 -->
-                <tx:method name="add*" propagation="REQUIRED" />
-            </tx:attributes>
-        </tx:advice>
-
-        <!-- 通过aop声明事务 -->
-        <aop:config>
-            <aop:advisor advice-ref="txAdvice" pointcut="execution(* com.service.*.*(..))"/>
-        </aop:config>
+        <!--事务驱动-->
+        <tx:annotation-driven transaction-manager="transactionManager"/>
 </beans>

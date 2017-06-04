@@ -27,6 +27,7 @@
         <module>demo4c</module>
         <module>demo5a</module>
         <module>demo6a</module>
+        <module>demo6b</module>
     </modules>
 
     <properties>

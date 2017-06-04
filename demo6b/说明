@@ -1,0 +1,7 @@
+demo6a       事务
+
+
+技术点：
+
+1、需要配置事务驱动<tx:annotation-driven/>
+2、使用@Transactional标注需要事务的Class或者Method

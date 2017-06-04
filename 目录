@@ -6,10 +6,10 @@ demo2               bean的作用域和生命周期
     demo2a              bean的作用域
     其他                 bean的生命周期
 
-demo3       自动装配
+demo3               自动装配
 
-demo4       切面编程
+demo4               切面编程
 
-demo5       连接数据库
+demo5               连接数据库
 
-demo6       事务管理
+demo6               事务管理

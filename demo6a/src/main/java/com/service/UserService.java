@@ -1,4 +1,4 @@
-package com;
+package com.service;
 
 /**
  * @author fangxin
@@ -6,11 +6,14 @@ package com;
  */
 public interface UserService {
 
-    void addUser();
+    void addUser(String name);
 
     void updateUser();
 
     void deleteUser();
 
-
+    /**
+     * 事务：添加测试
+     */
+    void addTest1();
 }
