@@ -1,0 +1,6 @@
+demo3a                  自动装配，自定义限定器
+
+技术点：
+
+1、自定义限定器@Crazzy，然后@Autowired的时候，优先考虑@Crazzy类型的bean
+

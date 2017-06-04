@@ -1,4 +1,4 @@
-demo4       bean的生命周期——init和destroy
+demo4       bean的生命周期，init和destroy
 
 1、singleton和prototype的init和destroy执行效果时不同的
 

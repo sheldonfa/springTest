@@ -16,9 +16,14 @@
         <module>demo2c</module>
         <module>demo2d</module>
         <module>demo2e</module>
+        <module>demo3a</module>
+        <module>demo3b</module>
+        <module>demo3c</module>
+        <module>demo3d</module>
+        <module>demo3e</module>
+        <module>demo4a</module>
+        <module>demo4b</module>
         <module>demo5</module>
-        <module>demo7</module>
-        <module>demo8</module>
         <module>demo9</module>
         <module>demo10</module>
     </modules>
